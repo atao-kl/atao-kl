@@ -1,0 +1,32 @@
+body { background: #fff; color: #333; 
+    text-align: center; padding: 4em 2em;font-family: Montserrat; }
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+    padding-left:200px; 
+    padding-right:200px;
+}
+thead th h3 {
+    color: #F39200;
+}
+.text-sm {
+    font-size: 12px;
+}
+.price {
+    font-size: 3em;
+}
+.button-submit {
+    background-color: #f44336;
+    color: white;
+    height: 35px;
+    width : 60%;
+    border: none;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}

@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 32px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .App-link {
+    color: #040505;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .icon {
+    background-color: #F39200;
+  }
+
+ .nav-right {
+    margin-left: 48%;
+  }
+  
+  li.right{
+    float: right;
+}
+#navbarTogglerDemo02 {
+  float: right;  
+}
+  #navbarTogglerDemo02 ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    font-size: small;
+    font-weight: bold;
+    color : #000;
+    }
+ 
+   #navbarTogglerDemo02 li {
+    float:left;
+    margin:auto;
+    padding:0;
+    background-color:#fff;
+    
+    }
+   #navbarTogglerDemo02 li link {
+    display:block;
+    width:100px;
+    color:#000;
+    text-decoration:none;
+    padding:5px;
+    }
+   #navbarTogglerDemo02 li link:hover {
+    color:#FFD700;
+    }
+#navbarTogglerDemo02 ul li ul {
+      display:none;
+      }
+#navbarTogglerDemo02 ul li:hover ul {
+        display:block;
+        }
+#navbarTogglerDemo02 li:hover ul li {
+        float:none;
+        }
+
+#navbarTogglerDemo02 li ul {
+          position:absolute;
+          }
+#navbarTogglerDemo02 li ul {
+            position:absolute;
+            }

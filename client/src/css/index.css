@@ -1,0 +1,91 @@
+/*@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');*/
+
+* {
+  box-sizing: border-box;
+}
+                  
+ body  {
+  min-height: 100vh;
+  background: #fff !important;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: auto;
+  
+}
+#root
+{margin-top: 6%;}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+ /* width: 750px;*/
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #fff;
+ box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+
+
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 20%;
+  margin-left: 15px;
+}
+
+
+.price .basic-header {
+  color:#F39200;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
