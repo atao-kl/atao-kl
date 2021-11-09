@@ -40,19 +40,19 @@ function Copyright(props) {
 
 const NosOffres = () => {
   
-  const [aticles, setAticles] = useState([]);
+  const [articles, setArticles] = useState([]);
   const [refresh, toggleRefresh] = useState(0);
   const refreshParent = () => {
       toggleRefresh(refresh + 1);
   };
 
  useEffect(() => {
-      fetchaticles();
+      fetcharticles();
   }, [refresh]);
 
-  async function fetchaticles() {
+  async function fetcharticles() {
       const { data } = await axios.get('/api/detailsarticles');
-      setAticles(data);
+      setArticles(data);
       console.log("data",data);
       
   }
@@ -80,7 +80,7 @@ const NosOffres = () => {
       {/* End hero unit */}
       <Container maxWidth="30%" component="main">
         <Grid container spacing={5} alignItems="flex-end">
-          {aticles.map((tier) => (
+          {articles.map((tier) => (
             // Enterprise card is full width at sm breakpoint
             <Grid
               item
